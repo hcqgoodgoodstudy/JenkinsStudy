@@ -15,7 +15,7 @@ public class hello {
     CarService service;
     @RequestMapping("/hello")
     public String hello(){
-        List list=service.getNames();
-        return list.toString();
+        /*List list=service.getNames();*/
+        return "hello world";
     }
 }
